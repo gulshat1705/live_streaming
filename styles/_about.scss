@@ -169,13 +169,14 @@
           }
 
           background: url('../assets/img/cactus_alpha.webp') 90% 100% / 320px
-            contain;
+            contain no-repeat;
         }
 
         @media (max-width: v.$media_sm) {
           height: 500px;
 
-          background: url('../assets/img/cactus_alpha.webp') 99% 100% / 220px;
+          background: url('../assets/img/cactus_alpha.webp') 99% 100% / 220px
+            no-repeat;
           &-title {
             margin: 0;
           }
